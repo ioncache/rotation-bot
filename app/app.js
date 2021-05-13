@@ -8,9 +8,9 @@ const app = new App({
 
 /* Add functionality here */
 
-(async () => {
+;(async () => {
   // Start the app
-  await app.start(process.env.PORT || 3000)
+  await app.start(config.get('port'))
 
   console.log('⚡️ Bolt app is running!')
 })()
