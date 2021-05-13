@@ -2,15 +2,17 @@
   "name": "rotation-bot",
   "version": "0.0.1",
   "description": "Slack bot for managing rotations",
-  "main": "",
+  "main": "app/app.js",
   "scripts": {
     "format": "npx prettier -w ./app",
     "lint": "npx stylelint ./app --config .stylelintrc.js",
     "lint:fix": "npx stylelint ./app --fix --config .stylelintrc.js",
+    "start": "node app/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@slack/bolt": "^3.3.0"
+    "@slack/bolt": "^3.3.0",
+    "config": "^3.3.6"
   },
   "devDependencies": {
     "husky": "^6.0.0",

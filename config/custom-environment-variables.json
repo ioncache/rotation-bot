@@ -1,0 +1,6 @@
+{
+  "slack": {
+    "secret": "SLACK_SIGNING_SECRET",
+    "token": "SLACK_BOT_TOKEN"
+  }
+}
