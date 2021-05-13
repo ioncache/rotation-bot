@@ -5,8 +5,7 @@
   "main": "app/app.js",
   "scripts": {
     "format": "npx prettier -w ./app",
-    "lint": "npx stylelint ./app --config .stylelintrc.js",
-    "lint:fix": "npx stylelint ./app --fix --config .stylelintrc.js",
+    "lint": "npx eslint app",
     "start": "node app/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,12 +14,10 @@
     "config": "^3.3.6"
   },
   "devDependencies": {
+    "eslint": "^7.26.0",
     "husky": "^6.0.0",
     "prettier": "^2.3.0",
-    "pretty-quick": "^3.1.0",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-order": "^4.1.0"
+    "pretty-quick": "^3.1.0"
   },
   "repository": {
     "type": "git",
