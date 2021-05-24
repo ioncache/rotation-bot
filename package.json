@@ -4,6 +4,8 @@
   "description": "Slack bot for managing rotations",
   "main": "app/app.js",
   "scripts": {
+    "decrypt": "./scripts/dev/sopsDecrypt.sh",
+    "encrypt": "./scripts/dev/sopsEncrypt.sh",
     "format": "npx prettier -w ./app",
     "lint": "npx eslint app",
     "start": "node app/app.js",

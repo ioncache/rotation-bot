@@ -1,0 +1,20 @@
+{
+	"data": "ENC[AES256_GCM,data:VBaq2EsCStWVDZsOe4GDn9ey1dvCFz/0U0Rx0i689Bwi9UMdVIhIGNi1qyxZM3/rPL7/z1eJxeyjAoSA9A8ged/8NKITwjNpGtb7omBVdkZK+8V0Y/rYQyluReDt+I5YlaaCgisAs2ra6c4Btvf4mFy3UV5Y8sM7P8d83veWHk2zvBHmOOTk0RyWsbuvyC8=,iv:OxGLT5BF6yRmObHILXD2LWRmrWgXJGr0GkplLTyczPI=,tag:7HivYcaTdBERky76Imca2Q==,type:str]",
+	"sops": {
+		"kms": null,
+		"gcp_kms": [
+			{
+				"resource_id": "projects/rotation-bot-313512/locations/global/keyRings/rotation-bot-local-dev/cryptoKeys/rotation-bot-admin-sops-key",
+				"created_at": "2021-05-24T22:53:01Z",
+				"enc": "CiQApbhXZZYsLdrUWVbY8jYzibBhVNs7G6r+PgsHMucFqrbMHlgSSQB/bewSKTk3YZmKxt5XHPuJEISgL6Ejfhutslg3nWwdk6+ibspCwFLq0TIvbIBViKan/c/bv8fK7J8LUoHS1/S4Xq9SeP5W5YQ="
+			}
+		],
+		"azure_kv": null,
+		"hc_vault": null,
+		"lastmodified": "2021-05-24T22:53:02Z",
+		"mac": "ENC[AES256_GCM,data:mDsVf1WoSg4S4YsEHbJd5JVvxb7d34U+LeneKkko8i2Z9XvQwb45b6Cr0UOotiMTmISw7goTD1RDEGgaWWIUZ4US9tnQkrONMO3Jw427CWUYRSeRKThI/W6UOPo71YAoMyeD/Gk8Ja9fNbKpif0xAe3wjp/yYyKljs7QwF2MJAQ=,iv:sILWZrkOg/+lLg9+g9skQKOcWrnljQfFaKTzxk1O4AQ=,tag:/z1WOjqtXDak145Yqeo57A==,type:str]",
+		"pgp": null,
+		"unencrypted_suffix": "_unencrypted",
+		"version": "3.6.1"
+	}
+}
